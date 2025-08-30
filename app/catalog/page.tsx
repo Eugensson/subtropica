@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import * as motion from "motion/react-client";
 
+import { Selection } from "@/components/selection";
+
 export const metadata: Metadata = {
   title: "Каталог",
 };
@@ -13,9 +15,9 @@ const CatalogPage = () => {
         opacity: 1,
         transition: { delay: 0.6, duration: 0.4, ease: "easeIn" },
       }}
-      className="h-full"
+      className="h-full relative py-4 md:py-8 bg-catalog bg-cover bg-no-repeat bg-center"
     >
-      Catalog Page
+      <Selection />
     </motion.section>
   );
 };

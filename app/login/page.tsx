@@ -1,6 +1,11 @@
+import type { Metadata } from "next";
 import * as motion from "motion/react-client";
 
-const Home = () => {
+export const metadata: Metadata = {
+  title: "Вхід",
+};
+
+const LoginPage = () => {
   return (
     <motion.section
       initial={{ opacity: 0 }}
@@ -8,11 +13,11 @@ const Home = () => {
         opacity: 1,
         transition: { delay: 0.6, duration: 0.4, ease: "easeIn" },
       }}
-      className="h-full bg-hero bg-cover bg-no-repeat bg-center"
+      className="h-full"
     >
-      <div className="h-full">homepage</div>
+      Login Page
     </motion.section>
   );
 };
 
-export default Home;
+export default LoginPage;
