@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 
 import { Nav } from "@/components/nav";
 import { PageTransition } from "@/components/page-transition";
@@ -31,6 +32,7 @@ export default function RootLayout({
         <RectangleTransition />
         <Nav />
         <PageTransition>{children}</PageTransition>
+        <Analytics />
       </body>
     </html>
   );
