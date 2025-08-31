@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import * as motion from "motion/react-client";
 
+import { ContactForm } from "@/components/contact-form";
+
 export const metadata: Metadata = {
   title: "Контакти",
 };
@@ -13,9 +15,9 @@ const ContactPage = () => {
         opacity: 1,
         transition: { delay: 0.6, duration: 0.4, ease: "easeIn" },
       }}
-      className="h-full"
+      className="h-full relative py-4 md:py-8 flex items-center justify-center bg-contact bg-cover bg-no-repeat bg-center"
     >
-      Contact Page
+      <ContactForm />
     </motion.section>
   );
 };
