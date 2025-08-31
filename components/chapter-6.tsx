@@ -7,9 +7,9 @@ import {
 
 export const Chapter6 = () => {
   return (
-    <section>
-      <h2 className="font-semibold">
-        Рекомендації з утримання вічнозелених декоративних насаджень
+    <section className="space-y-6">
+      <h2 className="text-xl font-bold text-center">
+        Розділ 6. Рекомендації з утримання вічнозелених декоративних насаджень
       </h2>
       <p>
         Стандартний догляд за насадженнями включає очищення їх від сміття,

@@ -11,9 +11,10 @@ import {
 
 export const Chapter2 = () => {
   return (
-    <section>
-      <h2 className="font-semibold">
-        Основні елементи озеленення в контексті застосовуваної концепції
+    <section className="space-y-6">
+      <h2 className="text-xl font-bold text-center">
+        Розділ 2. Основні елементи озеленення в контексті застосовуваної
+        концепції
       </h2>
       <p>
         Надзвичайне значення в художнім оформленні композицій мають живі

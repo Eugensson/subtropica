@@ -7,9 +7,9 @@ import {
 
 export const Chapter5 = () => {
   return (
-    <section>
-      <h2 className="font-semibold">
-        Особливості етапів створення суцільно вічнозелених ландшафтів
+    <section className="space-y-6">
+      <h2 className="text-xl font-bold text-center">
+        Розділ 5. Особливості етапів створення суцільно вічнозелених ландшафтів
       </h2>
       <p>
         Призначену під створення об&apos;єкту озеленення ділянку на час

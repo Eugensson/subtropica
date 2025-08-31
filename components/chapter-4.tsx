@@ -20,9 +20,9 @@ import {
 
 export const Chapter4 = () => {
   return (
-    <section>
-      <h2 className="font-semibold">
-        Проєктування вічнозелених насаджень у зоні помірного клімату
+    <section className="space-y-6">
+      <h2 className="text-xl font-bold text-center">
+        Розділ 4. Проєктування вічнозелених насаджень у зоні помірного клімату
       </h2>
       <p>
         Базовим кістяком об&apos;єкту озеленення є не самі насадження - але його

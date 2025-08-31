@@ -11,9 +11,9 @@ import {
 
 export const Chapter1 = () => {
   return (
-    <section>
-      <h2 className="font-semibold">
-        Передумови до функціоналізації підходів у масовім озелененні
+    <section className="space-y-6">
+      <h2 className="text-xl font-bold text-center">
+        Розділ 1. Передумови до функціоналізації підходів у масовім озелененні
       </h2>
       <p>
         Виклики перед країнами сходу Европи, зумовлені невблаганною зміною

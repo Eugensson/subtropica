@@ -11,9 +11,9 @@ import {
 
 export const Chapter3 = () => {
   return (
-    <section>
-      <h2 className="font-semibold">
-        Засади успіху в організації вічнозелених ландшафтів в Україні
+    <section className="space-y-6">
+      <h2 className="text-xl font-bold text-center">
+        Розділ 3. Засади успіху в організації вічнозелених ландшафтів в Україні
       </h2>
       <p>
         Виходячи з принципів створення об&apos;єктів озеленення, провідну

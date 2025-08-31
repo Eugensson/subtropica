@@ -7,9 +7,10 @@ import {
 
 export const Chapter7 = () => {
   return (
-    <section>
-      <h2 className="font-semibold">
-        Подальші перспективи розвитку вічнозелених культурних ландшафтів
+    <section className="space-y-6">
+      <h2 className="text-xl font-bold text-center">
+        Розділ 7. Подальші перспективи розвитку вічнозелених культурних
+        ландшафтів
       </h2>
       <p>
         З дальшою зміною клімату, що в країнах Східньої Европи проявляється в

@@ -90,7 +90,7 @@ export const Handbook = () => {
       </div>
       <div className="p-6 rounded-xl bg-background">
         <ScrollArea>
-          <div ref={scrollRef} className="h-144 pr-4 overflow-y-auto">
+          <div ref={scrollRef} className="h-144 space-y-6 pr-4 overflow-y-auto">
             <div ref={chapterRefs.chapter1}>
               <Chapter1 />
             </div>
