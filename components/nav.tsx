@@ -11,7 +11,7 @@ export const Nav = () => {
 
   return (
     <nav className="flex flex-col items-center xl:justify-center gap-y-4 fixed h-max bottom-0 mt-auto xl:right-[2%] z-50 top-0 w-full xl:w-16 xl:max-w-md xl:h-screen">
-      <ul className="flex w-full xl:flex-col items-center justify-between xl:justify-center gap-y-10 px-4 md:px-40 xl:px-0 h-20 xl:h-max py-8 bg-gray-500/60 backdrop-blur-sm xl:rounded-full">
+      <ul className="flex w-full xl:flex-col items-center justify-between xl:justify-center gap-y-10 px-4 md:px-40 xl:px-0 h-20 xl:h-max py-8 bg-gray-600/60 backdrop-blur-md xl:rounded-full">
         {NAV_ITEMS.map(({ name, icon: Icon, path }) => (
           <li key={name}>
             <Link
