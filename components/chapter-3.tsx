@@ -11,7 +11,7 @@ import {
 
 export const Chapter3 = () => {
   return (
-    <section id="chapter3">
+    <section>
       <h2 className="font-semibold">
         Засади успіху в організації вічнозелених ландшафтів в Україні
       </h2>

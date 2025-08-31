@@ -7,7 +7,7 @@ import {
 
 export const Chapter6 = () => {
   return (
-    <section id="chapter6">
+    <section>
       <h2 className="font-semibold">
         Рекомендації з утримання вічнозелених декоративних насаджень
       </h2>

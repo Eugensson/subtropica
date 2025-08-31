@@ -7,7 +7,7 @@ import {
 
 export const Chapter7 = () => {
   return (
-    <section id="chapter7">
+    <section>
       <h2 className="font-semibold">
         Подальші перспективи розвитку вічнозелених культурних ландшафтів
       </h2>

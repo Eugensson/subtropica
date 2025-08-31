@@ -20,7 +20,7 @@ import {
 
 export const Chapter4 = () => {
   return (
-    <section id="chapter4">
+    <section>
       <h2 className="font-semibold">
         Проєктування вічнозелених насаджень у зоні помірного клімату
       </h2>

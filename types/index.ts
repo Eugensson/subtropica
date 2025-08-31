@@ -1,8 +1,7 @@
 export type HandbookItem = {
   chapter: string;
   title: string;
-  slug: string;
-  path: string;
+  target: string;
 };
 
 export type Charm = {

@@ -11,7 +11,7 @@ import {
 
 export const Chapter2 = () => {
   return (
-    <section id="chapter2">
+    <section>
       <h2 className="font-semibold">
         Основні елементи озеленення в контексті застосовуваної концепції
       </h2>

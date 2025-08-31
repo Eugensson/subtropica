@@ -29,44 +29,37 @@ export const HANDBOOK_ITEMS: HandbookItem[] = [
   {
     chapter: "Розділ 1.",
     title: "Передумови до функціоналізації підходів у масовім озелененні",
-    slug: "peredumovy-do-funktsionalizatsii-pidkhodiv-u-masovim-ozelenenni",
-    path: "/handbook/peredumovy-do-funktsionalizatsii-pidkhodiv-u-masovim-ozelenenni",
+    target: "chapter1",
   },
   {
     chapter: "Розділ 2.",
     title: "Основні елементи озеленення в контексті застосовуваної концепції",
-    slug: "osnovni-elementy-ozelenennya-v-konteksti-zastosovuvanoi-kontseptsii",
-    path: "/handbook/osnovni-elementy-ozelenennya-v-konteksti-zastosovuvanoi-kontseptsii",
+    target: "chapter2",
   },
   {
     chapter: "Розділ 3.",
     title: "Засади успіху в організації вічнозелених ландшафтів в Україні",
-    slug: "zasady-uspikhu-v-organizatsii-vichnozelenykh-landshaftiv-v-ukraini",
-    path: "/handbook/zasady-uspikhu-v-organizatsii-vichnozelenykh-landshaftiv-v-ukraini",
+    target: "chapter3",
   },
   {
     chapter: "Розділ 4.",
     title: "Проєктування вічнозелених насаджень у зоні помірного клімату",
-    slug: "proektuvannya-vichnozelenykh-nasadzhen-u-zoni-pomirnoho-klimatu",
-    path: "/handbook/proektuvannya-vichnozelenykh-nasadzhen-u-zoni-pomirnoho-klimatu",
+    target: "chapter4",
   },
   {
     chapter: "Розділ 5.",
     title: "Особливості етапів створення суцільно вічнозелених ландшафтів",
-    slug: "osoblyvosti-etapiv-stvorennya-sutsilno-vichnozelenykh-landshaftiv",
-    path: "/handbook/osoblyvosti-etapiv-stvorennya-sutsilno-vichnozelenykh-landshaftiv",
+    target: "chapter5",
   },
   {
     chapter: "Розділ 6.",
     title: "Рекомендації з утримання вічнозелених декоративних насаджень",
-    slug: "rekomendatsii-z-utrymannya-vichnozelenykh-dekoratyvnykh-nasadzhen",
-    path: "/handbook/rekomendatsii-z-utrymannya-vichnozelenykh-dekoratyvnykh-nasadzhen",
+    target: "chapter6",
   },
   {
     chapter: "Розділ 7.",
     title: "Подальші перспективи розвитку вічнозелених культурних ландшафтів",
-    slug: "podalshi-perspektyvy-rozvytku-vichnozelenykh-kulturnykh-landshaftiv",
-    path: "/handbook/podalshi-perspektyvy-rozvytku-vichnozelenykh-kulturnykh-landshaftiv",
+    target: "chapter7",
   },
 ];
 

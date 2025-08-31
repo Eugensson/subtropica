@@ -11,7 +11,7 @@ import {
 
 export const Chapter1 = () => {
   return (
-    <section id="chapter1">
+    <section>
       <h2 className="font-semibold">
         Передумови до функціоналізації підходів у масовім озелененні
       </h2>

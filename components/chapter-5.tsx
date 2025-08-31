@@ -7,7 +7,7 @@ import {
 
 export const Chapter5 = () => {
   return (
-    <section id="chapter5">
+    <section>
       <h2 className="font-semibold">
         Особливості етапів створення суцільно вічнозелених ландшафтів
       </h2>

@@ -26,7 +26,7 @@ export const LoginForm = () => {
             />
           </div>
           <div className="space-y-2">
-            <Label>Електронна пошта</Label>
+            <Label>Пароль</Label>
             <Input
               placeholder="********"
               className="placeholder:text-primary-foreground/70"
