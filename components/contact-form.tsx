@@ -14,11 +14,19 @@ export const ContactForm = () => {
       <CardHeader>
         <CardTitle className="flex items-center justify-center gap-4 text-2xl uppercase">
           <RiMailSendFill size={28} />
-          Надіслати листа
+          Форма зв&apos;язку
         </CardTitle>
       </CardHeader>
       <CardContent>
         <form className="space-y-6">
+          <div className="space-y-2">
+            <Label htmlFor="name">Ім&apos;я</Label>
+            <Input
+              id="name"
+              placeholder="Ваше ім'я"
+              className="placeholder:text-primary-foreground/70"
+            />
+          </div>
           <div className="space-y-2">
             <Label htmlFor="message">Електронна пошта</Label>
             <Input
@@ -28,10 +36,10 @@ export const ContactForm = () => {
             />
           </div>
           <div className="space-y-2">
-            <Label htmlFor="password">Пароль</Label>
+            <Label htmlFor="subject">Тема</Label>
             <Input
-              id="password"
-              placeholder="********"
+              id="subject"
+              placeholder="Тема листа"
               className="placeholder:text-primary-foreground/70"
             />
           </div>
