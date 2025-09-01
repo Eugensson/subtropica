@@ -15,7 +15,7 @@ const HandbookPage = () => {
         opacity: 1,
         transition: { delay: 0.6, duration: 0.4, ease: "easeIn" },
       }}
-      className="h-full relative py-4 md:py-8 bg-handbook bg-cover bg-no-repeat bg-center"
+      className="h-full relative py-4 md:py-8 bg-bg bg-cover bg-no-repeat bg-center"
     >
       <Handbook />
     </motion.section>

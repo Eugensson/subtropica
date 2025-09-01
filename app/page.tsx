@@ -8,7 +8,7 @@ const Home = () => {
         opacity: 1,
         transition: { delay: 0.6, duration: 0.4, ease: "easeIn" },
       }}
-      className="h-full bg-hero bg-cover bg-no-repeat bg-center"
+      className="h-full bg-bg bg-cover bg-no-repeat bg-center"
     >
       <div className="h-full">homepage</div>
     </motion.section>

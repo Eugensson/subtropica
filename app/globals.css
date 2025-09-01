@@ -10,6 +10,7 @@
   --background-image-catalog: url("/catalog.jpg");
   --background-image-contact: url("/contact.jpg");
   --background-image-login: url("/login.jpg");
+  --background-image-bg: url("/background.jpg");
 }
 
 @theme inline {
